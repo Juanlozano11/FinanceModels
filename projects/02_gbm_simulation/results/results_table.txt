@@ -1,0 +1,18 @@
+
+=== GBM Simulation Summary ===
+Parameter           |                 Value
+---------           |  --------------------
+S0                  |                100.00
+mu (annual)         |                0.0800
+sigma (annual)      |                0.2500
+T (years)           |                     1
+days                |                   252
+paths               |                10,000
+                    |                      
+Metric              |                Result
+------              |  --------------------
+E[S_T] empirical    |              108.1110
+Std[S_T] empirical  |               27.3048
+Median S_T          |              104.9144
+E[S_T] theoretical  |              108.3287
+P(S_T < 90.00)      |              27.1300%
