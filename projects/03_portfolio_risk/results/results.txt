@@ -1,0 +1,5 @@
+=== Portfolio Risk Summary ===
+Analytical Var(Rp): 0.00008554
+Monte Carlo Var(Rp): 0.00008439
+Difference: 1.14698478e-06
+95% One-Day VaR (Normal): $15,033.89

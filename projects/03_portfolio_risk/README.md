@@ -17,7 +17,7 @@ You have two assets with daily returns assumed Normal:
 - Correlation: ρ  
 - Portfolio weights: **w = (w₁, w₂)** with w₁ + w₂ = 1
 
-**Tasks (20 min):**
+**Tasks:**
 1. Simulate **N = 50,000** daily return pairs \((R₁, R₂)\) with the specified **ρ** using Cholesky.
 2. Compute portfolio return \( R_p = w_1 R_1 + w_2 R_2 \).
 3. Visualize:
@@ -33,7 +33,7 @@ You have two assets with daily returns assumed Normal:
    \]
    where \( \mu_p = w_1 \mu_1 + w_2 \mu_2 \), \( \sigma_p = \sqrt{\mathrm{Var}(R_p)} \), \( z_{0.95}=1.645 \).
 
-> Keep this file problem-only. Do not include numeric answers here.
+
 
 ---
 
@@ -54,16 +54,3 @@ You have two assets with daily returns assumed Normal:
 - Figure 2: Scatter of \((R_1, R_2)\)
 - Console summary (optional): empirical mean/var vs. analytical var, and (optional) VaR
 
----
-
-## Hints (ask only if you want them)
-
-- Build covariance matrix Σ from σ’s and ρ, then use **Cholesky** to correlate standard Normals.
-- Analytical variance uses \( w^\top \Sigma w \).
-
----
-
-## Extensions (later)
-
-- Sweep ρ across a grid and plot σₚ vs ρ (diversification curve).
-- Add a third asset and compare frontier points for a few weight pairs.
